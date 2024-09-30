@@ -1,3 +1,4 @@
+import Header from './components/Header';
 import { GlobalCss } from './styles';
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <>
       <GlobalCss />
       <div>
-        Tina modas
+        <Header />
       </div>
     </>
   )
