@@ -1,7 +1,7 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 //Variávei das cores do todo o Projeto
-const cores = {
+export const cores = {
     branco:' #F9F9F9',
     marssala:'#6b141b',
     preto:' #050404',
@@ -11,17 +11,25 @@ const cores = {
 
 //reset do estilo global
 export const GlobalCss = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: Roboto, sans-serif;
+        list-style: none;
     }
 
     body {
         background-color: ${cores.branco};
         color: ${cores.marssala};
+        padding-top:  8px;
     }
 `
 
-
+//prendendo o layout no container e em seguida foi aplicado o container no App
+export const Container = styled.div`
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+`
