@@ -4,7 +4,8 @@ import { cores } from "../../styles";
 export const HeaderBar = styled.header`
     background-color: ${cores.cinzaclaro};
     padding: 28px;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
+    margin-top: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,10 +14,10 @@ export const HeaderBar = styled.header`
         color: ${cores.marssala};
         text-decoration: none;
         font-weight: bold;
-        font-size: 1.2em;
+        font-size: 1.5em;
         font-family: Arial, Helvetica, sans-serif;
         //atenção essa margin-left é oespaçamento dos links pode ser que seja necessário reestilzar
-        margin-left: 40px;
+        margin-left: 0%;
         border-right: 200px;
     }
 `

@@ -4,13 +4,14 @@ import { cores } from "../../styles";
 export const Topo = styled.div`
     background-color: ${cores.branco};
     display: flex;
-    padding-top:0;
+    padding-top: 8px;
     align-items: center;
     margin-bottom: 8px;    
     width: 100%;
     margin: 0 auto;
     margin-top: 0%;
     justify-content: space-between;
+    
 `
 export const Logotipo = styled.div`
     margin-left: 40px;
@@ -22,11 +23,12 @@ export const Logotipo = styled.div`
 export const Title = styled.h1`
     justify-content: center;
     font-family: 'Tangerine', cursive;
-    font-size: 4em;
+    font-size: 90px;
     font-weight: bold;
 `
 export const Bag = styled.a`
-    margin-right: 40px;
+    margin-right: 20px;
     text-decoration: none;
+    
 `
 
