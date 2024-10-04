@@ -7,19 +7,19 @@ const Header = () => (
         <nav>
             <Links>
                 <LinkItem>
-                    <a href="#">Moda Feminina</a>
+                    <a href="#">Feminino</a>
                 </LinkItem>
                 <LinkItem>
-                    <a href="#">Moda Infantil</a>
+                    <a href="#">Infantil</a>
                 </LinkItem>
                 <LinkItem>
-                    <a href="#">Moda Fitnes</a>
+                    <a href="#">Ítima</a>
                 </LinkItem>
                 <LinkItem>
-                    <a href="#">Moda Evangélica</a>
+                    <a href="#">Fitniss</a>
                 </LinkItem>
                 <LinkItem>
-                    <a href="#">Moda Ítima</a>
+                    <a href="#">Evangélica</a>
                 </LinkItem>
                 <LinkItem>
                     <a href="#">Atendimento</a>

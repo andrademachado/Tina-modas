@@ -3,10 +3,13 @@ import styled, { createGlobalStyle } from "styled-components";
 //Variávei das cores do todo o Projeto
 export const cores = {
     branco:' #F9F9F9',
+    brancoRose:' #F1EBE9',
+    cinzaclaro: '#DCD2D3',
     marssala:'#6b141b',
-    preto:' #050404',
-    cinzaclaro:'#DCD2D3',
-    CinzaEscuro:'#907671'
+    preto:' #050404',    
+    CinzaEscuro:'#907671',    
+    verde:'#3cc165',
+    rosa:'#E7A8A8'
 }
 
 //reset do estilo global
@@ -20,16 +23,19 @@ export const GlobalCss = createGlobalStyle`
         list-style: none;
     }
 
+    
     body {
         background-color: ${cores.branco};
         color: ${cores.marssala};
         padding-top:  8px;
     }
+    
+    //prendendo o layout no container e em seguida foi aplicado o container no App
+    .container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
 `
 
-//prendendo o layout no container e em seguida foi aplicado o container no App
-export const Container = styled.div`
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
-`
+
