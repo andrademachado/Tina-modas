@@ -3,18 +3,19 @@ import { cores } from "../../styles";
 
 export const HeaderBar = styled.header`
     background-color: ${cores.cinzaclaro};
-    padding: 28px;
+    padding: 20px;
     margin-bottom: 0px;
-    margin-top: 8px;
+    margin-top: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 30px;
 
     a {
         color: ${cores.marssala};
         text-decoration: none;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 18px;
         font-family: Arial, Helvetica, sans-serif;
         //atenção essa margin-left é oespaçamento dos links pode ser que seja necessário reestilzar
         margin-left: 0%;
@@ -28,6 +29,16 @@ export const Links = styled.ul`
 `
 export const LinkItem = styled.li`
     margin-right: 48px;
+`
+
+export const InfoPix = styled.h4`
+    margin-right: 150px;
+    display: flex;
+    color: ${cores.preto};
+    font-size: 20px;
+    img{
+        display: flex;
+    }
 `
 
 

@@ -2,12 +2,16 @@ import styled, { createGlobalStyle } from "styled-components";
 
 //Variávei das cores do todo o Projeto
 export const cores = {
+    brancoNeve:'#fff',
     branco:' #F9F9F9',
     brancoRose:' #F1EBE9',
     cinzaclaro: '#DCD2D3',
     marssala:'#6b141b',
     preto:' #050404',    
-    CinzaEscuro:'#907671',    
+    CinzaEscuro:'#907671',
+    Cinza:'#AC9692',
+    CinzaBranco: '#C2AEA9',
+    marrom:'#d2bdb6' ,   
     verde:'#3cc165',
     rosa:'#E7A8A8'
 }

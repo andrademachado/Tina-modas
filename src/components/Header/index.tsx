@@ -1,31 +1,37 @@
-import { HeaderBar, Links, LinkItem, } from './styles'
+import { HeaderBar, Links, LinkItem, InfoPix, } from './styles'
+import Pix from '../../assets/images/icones/Pix.png'
 
 
 //menu de seções *na linha 28 temos os itens do carrinho
 const Header = () => (
-    <HeaderBar>        
+    <HeaderBar>
+                
         <nav>
             <Links>
                 <LinkItem>
-                    <a href="#">Feminino</a>
+                    <a href="#">FEMININO</a>
                 </LinkItem>
                 <LinkItem>
-                    <a href="#">Infantil</a>
+                    <a href="#">INFANTIL</a>
                 </LinkItem>
                 <LinkItem>
-                    <a href="#">Ítima</a>
+                    <a href="#">ÍNTIMA</a>
                 </LinkItem>
                 <LinkItem>
-                    <a href="#">Fitniss</a>
+                    <a href="#">FITNESS</a>
                 </LinkItem>
                 <LinkItem>
-                    <a href="#">Evangélica</a>
-                </LinkItem>
-                <LinkItem>
-                    <a href="#">Atendimento</a>
+                    <a href="#">EVANGÉLICA</a>
                 </LinkItem>
             </Links>
-        </nav>        
+        </nav>
+        {/*essa linha decódigo vai pro rodape
+        <div>
+            <InfoPix>PAGUE COM PIX</InfoPix>
+        <img src={Pix } width="20" height="20" alt="logo Pix" />
+        </div>
+        
+        */}
     </HeaderBar >
 )
 

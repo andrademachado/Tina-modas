@@ -1,7 +1,8 @@
 import Top from './components/Top'
 import Header from './components/Header';
-import Banner from './components/Banner'
+
 import { GlobalCss, } from './styles';
+import Cartaz from './components/Cartaz';
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <GlobalCss />
         <Top />
         <Header />
-        <Banner />
+        <Cartaz />
+        
         <div className='container'>
         </div>
     </>
