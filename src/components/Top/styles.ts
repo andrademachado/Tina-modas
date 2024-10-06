@@ -18,7 +18,7 @@ import { cores } from "../../styles";
     justify-content: space-between;
 `
 export const Logotipo = styled.div`
-    margin-left: 40px;
+    margin-left: 16px;
     padding-bottom: 2px;
     font-family: 'Tangerine', cursive;
     

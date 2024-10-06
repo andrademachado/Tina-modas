@@ -1,8 +1,24 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import Top from './components/Top'
 import Header from './components/Header';
-
 import { GlobalCss, } from './styles';
-import Cartaz from './components/Cartaz';
+import Banner from './components/Banner';
+import Cartaz from './components/Cartaz'
+
+
+const rotas = createBrowserRouter([
+  {
+    path:'/',
+    element: (
+      <>
+        <Banner />
+        <Cartaz />
+      </>
+    )
+  }
+])
+
 
 
 function App() {
@@ -11,10 +27,11 @@ function App() {
       <GlobalCss />
         <Top />
         <Header />
-        <Cartaz />
         
         <div className='container'>
+
         </div>
+        <RouterProvider router={rotas} />
     </>
   )
 }
