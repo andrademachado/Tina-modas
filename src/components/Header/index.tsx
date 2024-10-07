@@ -1,3 +1,42 @@
+import { HeaderBar, LinkItem, Links, } from './styles'
+import logo from '../../assets/images/logoTina.jpg'
+import sacola from '../../assets/images/bags.svg'
+import telefone from '../../assets/images/phone.svg'
+
+const Header = () =>  (
+
+    <HeaderBar>
+        <img src={logo} width="170" height="70" alt="Tina Modas" /> 
+       
+        <nav>
+            <Links>
+                <LinkItem><a href="#">CATEGORIAS</a></LinkItem>
+                <LinkItem><a href="#">DESTAQUE</a></LinkItem>
+                <LinkItem><a href="#">NOVIDADES</a></LinkItem> 
+                <LinkItem><a href="#">PROMOÇÕES</a></LinkItem>
+            </Links>
+        </nav>
+        <a href='#'>
+            <img src={telefone} width="16" height="16" alt='sacola' />
+            ATENDIMENTO
+        </a>
+        <a href="#">
+            0
+            <img src={sacola} width="40" height="40" alt='sacola' />
+        </a>
+    </HeaderBar>
+)
+
+export default Header
+
+
+
+
+{/*
+    
+
+
+
 import { HeaderBar, Links, LinkItem, InfoPix, } from './styles'
 import Pix from '../../assets/images/icones/Pix.png'
 
@@ -5,7 +44,7 @@ import Pix from '../../assets/images/icones/Pix.png'
 //menu de seções *na linha 28 temos os itens do carrinho
 const Header = () => (
     <HeaderBar>
-                
+
         <nav>
             <Links>
                 <LinkItem>
@@ -30,9 +69,11 @@ const Header = () => (
             <InfoPix>PAGUE COM PIX</InfoPix>
         <img src={Pix } width="20" height="20" alt="logo Pix" />
         </div>
-        
-        */}
-    </HeaderBar >
-)
 
-export default Header
+        </HeaderBar >
+    )
+    
+    export default Header
+    
+    */}
+   
