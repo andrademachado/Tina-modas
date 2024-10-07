@@ -13,7 +13,9 @@ export const cores = {
     CinzaBranco: '#C2AEA9',
     marrom:'#d2bdb6' ,   
     verde:'#3cc165',
-    rosa:'#E7A8A8'
+    rosa:'#E7A8A8',
+    concha:'#e4dbd5',
+    brancoazulado:'#EFEFEF'
 }
 
 //reset do estilo global
@@ -30,7 +32,7 @@ export const GlobalCss = createGlobalStyle`
     
     body {
         background-color: ${cores.branco};
-        color: ${cores.marssala};
+        color: ${cores.preto};
         padding-top:  8px;
     }
     

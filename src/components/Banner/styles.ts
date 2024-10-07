@@ -6,7 +6,7 @@ export const CartazContainer = styled.div`
     height: 100%;
     object-fit: cover;
     display :flex ;    
-    background-color: ${cores.brancoRose};
+    background-color: ${cores.brancoazulado};
     color: ${cores.preto};
     position: relative;
 `
