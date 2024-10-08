@@ -33,7 +33,7 @@ export const GlobalCss = createGlobalStyle`
     body {
         background-color: ${cores.branco};
         color: ${cores.preto};
-        padding-top:  20px;
+        padding-top:  26px;
     }
     
     //prendendo o layout no container e em seguida foi aplicado o container no App

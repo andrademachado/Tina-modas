@@ -3,8 +3,8 @@ import { cores } from "../../styles";
 
 export const HeaderBar = styled.header`
     background-color: ${cores.brancoNeve};
-    padding: 12px;
-    border-radius: 12px;
+    padding: 16px;
+    border-radius: 20px;
     margin-bottom: 40px;
     display: flex;
     align-items: center;

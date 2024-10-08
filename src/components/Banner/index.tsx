@@ -1,4 +1,46 @@
-import { CartazContainer, ImgEsquerda, CardCenter, Titulo, Acionar, CardCar, Subtitle, Title, Text   } from './styles'
+import Pacote from '../../assets/images/Pacotejpg.jpg'
+import TinaApresentando from '../../assets/images/TinaApresentando.jpg'
+import Transport from '../../assets/images/icones/transporte.png'
+import Cartao from '../../assets/images/icones/cartao4.png'
+import Pix from '../../assets/images/icones/Pix.png'
+import Button from '../Button'
+import {  Botao, Car, Container,  Frase,  Frete,  List,  Title,  } from './styles'
+
+
+
+export const Banner = () => (
+    <Container  >
+        <div className='container' >
+        <List>
+            <li>
+                <img src={Pacote} width="405" height="370" alt="Tina com sacolas" />
+            </li>
+                <Frete >
+                    < Car src={Transport} width="80" height="80" alt=" Ícone da transportadora" />
+                    <Title> FRETE GRÁTIS/BA</Title>
+                    < Botao>
+                <Button type="link" to="/produto" title="click aqui">
+                    CONFERIR
+                </Button>
+                    </ Botao>   
+                    <Frase>*Nas compras à partir de R$200,00</Frase>
+                </Frete >
+            <li>
+                <img src={TinaApresentando} width="330" height="370" alt="Tina com sacolas" />
+            </li>
+        </List>
+            
+        </div>
+    </Container>
+)
+
+export default Banner
+
+
+{/*
+
+
+    import { CartazContainer, ImgEsquerda, CardCenter, Titulo, Acionar, CardCar, Subtitle, Title, Text   } from './styles'
 import Pacote from '../../assets/images/Pacotejpg.jpg'
 import TinaApresentando from '../../assets/images/TinaApresentando.jpg'
 import Transport from '../../assets/images/icones/transporte.png'
@@ -12,7 +54,7 @@ export const Banner = () => (
                 <CardCar src={Transport} width="90" height="90" alt="Caminhão de entrega" />
                 <Title>FRETE GRÁTIS </Title>
                 <Subtitle>
-                    EM TODA A BAHIA 
+                    EM TODA A BAHIA
                 </Subtitle>
             </Titulo>
             <Acionar>
@@ -39,7 +81,7 @@ export default Banner
         Código do baner com imagem de fundo
 
 import { Imagem, Titulo, Texto, Iconepix, Subtitulo } from "./styles"
-import TinaBanner from '../../assets/images/TinaSacolajpg.jpg' 
+import TinaBanner from '../../assets/images/TinaSacolajpg.jpg'
 import Pix from '../../assets/images/Pix.png'
 
 
@@ -48,9 +90,9 @@ const Banner = () => <Imagem style = {{ backgroundImage: `url(${TinaBanner})` }}
         <Titulo>
         FRETE <br />
         GRÁTIS <br/>
-        </Titulo>        
+        </Titulo>
         <Texto>
-            PARA TODA BAHIA 
+            PARA TODA BAHIA
             <br />
             NAS COMPRAS À PARTIR DE R$200,00
         </Texto>

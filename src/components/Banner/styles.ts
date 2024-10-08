@@ -1,14 +1,61 @@
 import styled from "styled-components";
-import { cores } from "../../styles"; 
+import { cores } from "../../styles";
+
+export const Container = styled.section`
+    background-color: ${cores.brancoazulado};
+`
+
+export const List = styled.ul`
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 32px;
+    
+`
+export const Car = styled.img`
+    margin-top: 10px;
+    margin-left: 70px;
+    
+`
+
+export const Frete  = styled.li`
+    margin-top: 30px;
+    margin-left: 0px;
+`
+export const Title = styled.h2`
+    font-size: 28px;
+    display: flex;
+    margin-top: 10px;
+    white-space: nowrap;
+`
+
+
+export const Botao = styled.div`
+    margin-top: 100px;
+    margin-left: 50PX;
+`
+export const Frase = styled.p`
+    margin-top: 70px;
+    white-space: nowrap;
+`
+
+
+
+{/*
+    import styled from "styled-components";
+import { cores } from "../../styles";
+import { TagContainer } from "../Tag/styles";
 
 export const CartazContainer = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display :flex ;    
+    display :flex ;
     background-color: ${cores.brancoazulado};
     color: ${cores.preto};
-    position: relative;
+
+
+   
+
 `
 export const ImgEsquerda = styled.img`
     margin-left: 216px;

@@ -6,8 +6,7 @@ import telefone from '../../assets/images/phone.svg'
 const Header = () =>  (
 
     <HeaderBar>
-        <img src={logo} width="170" height="70" alt="Tina Modas" /> 
-       
+        <img src={logo} width="170" height="70" alt="Tina Modas" />
         <nav>
             <Links>
                 <LinkItem><a href="#">CATEGORIAS</a></LinkItem>
