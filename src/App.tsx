@@ -3,11 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Header from './components/Header';
 import { GlobalCss,Container } from './styles';
-import Banner from './components/Banner';
 
-import Product from './components/Product';
-import ProductsList from './components/ProductList';
 import { Anuncio } from './components/Anuncio';
+import Home from './pages/Home';
 
 
 
@@ -16,13 +14,7 @@ import { Anuncio } from './components/Anuncio';
 const rotas = createBrowserRouter([
   {
     path:'/',
-    element: (
-      <>
-        <Banner />
-        <ProductsList title="DESTAQUE" background="Rose" />
-        <ProductsList title="NOVIDADES" background="concha"/>
-      </>
-    )
+    element: <Home />
   }
 ])
 

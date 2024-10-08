@@ -1,3 +1,4 @@
+import Roupa from "../../models/Roupa";
 import Product from "../Product"
 
 import { Container,List } from './styles'
@@ -5,46 +6,25 @@ import { Container,List } from './styles'
 export type Props = {
     title: string;
     background: 'Rose' | 'concha' ;
+    roupas: Roupa[]
 }
 
-const ProductsList = ({ background, title }: Props) => (
+const ProductsList = ({ background, title, roupas }: Props) => (
     <Container background={background}>
         <div className='container'>
         <h2>{title}</h2>
         <List>
-            <Product 
-        //*NA LINHA 17  EM CATEGORY MUDAMOS O NOME DO PRODUTO ABAIXO DA IMG
-            category='Destaque' 
-            description='conjunto country' 
-            image='//placehold.it/222x250' 
-            infos={['-10%', 'R$ 150,00']}
-            system='conferir'
-            title='conjunto country'
-            />
-            <Product
-                category='Destaque'
-                description='conjunto'
-                image='//placehold.it/222x250'
-                infos={['-10%', 'R$ 150,00']}
-                system='conferir'
-                title='conjunto'
-            />
-            <Product
-                category='Destaque'
-                description='conjunto'
-                image='//placehold.it/222x250'
-                infos={['-10%', 'R$ 150,00']}
-                system='conferir'
-                title='conjunto'
+            {roupas.map((roupa) => (
+                <Product 
+                key={roupa.id}
+                category={roupa.category} 
+                description={roupa.description} 
+                image={roupa.image} 
+                infos={roupa.infos}
+                system={roupa.system}
+                title={roupa.title}
                 />
-                <Product
-                    category='Destaque'
-                    description='conjunto'
-                    image='//placehold.it/222x250'
-                    infos={['-10%', 'R$ 150,00']}
-                    system='conferir'
-                    title='conjunto'
-                />    
+            ))}
         </List>
         </div>
     </Container>

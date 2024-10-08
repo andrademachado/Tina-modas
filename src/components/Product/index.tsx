@@ -19,7 +19,7 @@ const Product = ({
     image 
 }: Props) => (
     <Card>
-        <img src={image} alt={title} />
+        <img src={image} width="230" height="270" alt={title} />
         <Infos>
             {infos.map(info => (
                 <Tag key={info}>{info}</Tag>
