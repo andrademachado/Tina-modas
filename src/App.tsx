@@ -19,7 +19,7 @@ const rotas = createBrowserRouter([
     element: (
       <>
         <Banner />
-        <ProductsList title="DESTAQUE" background="brancoRose" />
+        <ProductsList title="DESTAQUE" background="Rose" />
         <ProductsList title="NOVIDADES" background="concha"/>
       </>
     )

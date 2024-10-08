@@ -4,7 +4,7 @@ import { Container,List } from './styles'
 
 export type Props = {
     title: string;
-    background: 'brancoRose' | 'concha' ;
+    background: 'Rose' | 'concha' ;
 }
 
 const ProductsList = ({ background, title }: Props) => (

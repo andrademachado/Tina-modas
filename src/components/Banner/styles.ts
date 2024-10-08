@@ -11,40 +11,35 @@ export const Container = styled.section`
 export const List = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 32px;
-    
-`
-export const Car = styled.img`
-    margin-top: 10px;
-    margin-left: 70px;
+    column-gap: 0px;
     
 `
 
-export const Frete  = styled.li`
-    margin-top: 30px;
-    margin-left: 0px;
-`
-export const Title = styled.h2`
-    font-size: 30px;
-    display: flex;
-    margin-top: 10px;
-    white-space: nowrap;
-`
 
 
-export const Botao = styled.div`
-    margin-top: 100px;
-    margin-left: 50PX;
-`
-export const Frase = styled.p`
-    margin-top: 60px;
-    white-space: nowrap;
-`
+
+
 
 
 
 {/*
     import styled from "styled-components";
+    export const Car = styled.img`
+        margin-top: 10px;
+        margin-left: 70px;
+        
+    `
+    
+    export const Frete  = styled.li`
+        margin-top: 30px;
+        margin-left: 0px;
+    `
+    export const Title = styled.h2`
+        font-size: 30px;
+        display: flex;
+        margin-top: 10px;
+        white-space: nowrap;
+    `
 import { cores } from "../../styles";
 import { TagContainer } from "../Tag/styles";
 

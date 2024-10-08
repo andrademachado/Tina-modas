@@ -4,7 +4,7 @@ import styled, { createGlobalStyle } from "styled-components";
 export const cores = {
     brancoNeve:'#fff',
     branco:' #F9F9F9',
-    brancoRose:' #F1EBE9',
+    Rose:' #F1EBE9',
     cinzaclaro: '#DCD2D3',
     marssala:'#6b141b',
     preto:' #050404',    
@@ -15,7 +15,9 @@ export const cores = {
     verde:'#3cc165',
     rosa:'#E7A8A8',
     concha:'#e4dbd5',
-    brancoazulado:'#EFEFEF'
+    brancoazulado:'#EFEFEF',
+    palha:'#f1ece3',
+    bege:'#c28b74'
 }
 
 //reset do estilo global
