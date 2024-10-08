@@ -2,7 +2,7 @@ import { Card, Container, Info, PaguePix } from "./styles"
 import Cartao from '../../assets/images/icones/cartao4.png'
 import Pix from '../../assets/images/icones/Pix.png'
 
-export const Infos = () => (
+export const Anuncio = () => (
     <Container>
         <div className="container">
             <Info>
@@ -20,4 +20,4 @@ export const Infos = () => (
 
 )
 
-export default Infos
+export default Anuncio

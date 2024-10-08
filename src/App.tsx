@@ -7,7 +7,7 @@ import Banner from './components/Banner';
 
 import Product from './components/Product';
 import ProductsList from './components/ProductList';
-import Infos from './components/Infos';
+import { Anuncio } from './components/Anuncio';
 
 
 
@@ -19,7 +19,8 @@ const rotas = createBrowserRouter([
     element: (
       <>
         <Banner />
-        <ProductsList title="DESTAQUE" background='brancoRose' />
+        <ProductsList title="DESTAQUE" background="brancoRose" />
+        <ProductsList title="NOVIDADES" background="concha"/>
       </>
     )
   }
@@ -38,7 +39,7 @@ function App() {
         
         
         </div>
-        <Infos />
+        <Anuncio />
         <RouterProvider router={rotas} />
     </>
   )

@@ -2,7 +2,10 @@ import styled from "styled-components";
 import { cores } from "../../styles";
 
 export const Container = styled.section`
-    background-color: ${cores.brancoazulado};
+    background-color: ${cores.marrom};
+    color: ${cores.preto};
+    height: 370px;
+    position: relative;
 `
 
 export const List = styled.ul`
@@ -22,7 +25,7 @@ export const Frete  = styled.li`
     margin-left: 0px;
 `
 export const Title = styled.h2`
-    font-size: 28px;
+    font-size: 30px;
     display: flex;
     margin-top: 10px;
     white-space: nowrap;
@@ -34,7 +37,7 @@ export const Botao = styled.div`
     margin-left: 50PX;
 `
 export const Frase = styled.p`
-    margin-top: 70px;
+    margin-top: 60px;
     white-space: nowrap;
 `
 

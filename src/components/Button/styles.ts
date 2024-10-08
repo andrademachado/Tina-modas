@@ -12,9 +12,9 @@ export const ButtonContainer =styled.button`
     border-radius: 8px;
 `
 export const ButtonLink = styled(Link)`
-    border: 2px solid ${cores.verde};
+    border: 2px solid ${cores.marssala};
     color:${cores.branco};
-    background-color: ${cores.verde};
+    background-color: ${cores.marssala};
     font-size: 16px;
     font-weight: bold;
     padding: 8px 16px;
