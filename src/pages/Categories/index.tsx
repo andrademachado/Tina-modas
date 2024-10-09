@@ -1,5 +1,5 @@
 import { title } from "process"
-import Banner from "../../components/Banner"
+
 import ProductsList from "../../components/ProductList"
 
 import conjuntoCountry from '../../assets/images/conjuncountry.jpg'
@@ -73,12 +73,14 @@ const novidades: Roupa[] =  [
     
 ]
 
-const Home =() => (
-    <>
-        <Banner />
-        <ProductsList roupas={destaque} title="DESTAQUE" background="Rose" />
-        <ProductsList roupas={novidades} title="NOVIDADES" background="concha" />
+const Categories =() => (
+    <>   
+        <ProductsList roupas={destaque} title="Feminino" background="Rose" />
+        <ProductsList roupas={novidades} title="INFANTIL" background="concha" />
+        <ProductsList roupas={destaque} title="EVANGÉLICA" background="Rose" />
+        <ProductsList roupas={novidades} title="FITNESS" background="concha" />
+        <ProductsList roupas={novidades} title="ÍTIMA" background="Rose" />
     </>
 )
 
-export default Home
+export default Categories

@@ -1,4 +1,5 @@
-import { HeaderBar, LinkItem, Links, } from './styles'
+import { Link } from 'react-router-dom'
+import { HeaderBar, LinkItem, Links, Secao, } from './styles'
 import logo from '../../assets/images/logoTina.jpg'
 import sacola from '../../assets/images/bags.svg'
 import telefone from '../../assets/images/phone.svg'
@@ -7,14 +8,14 @@ const Header = () =>  (
 
     <HeaderBar>
         <img src={logo} width="170" height="70" alt="Tina Modas" />
-        <nav>
+        <Secao>
             <Links>
-                <LinkItem><a href="#">CATEGORIAS</a></LinkItem>
+                <Link to="/categories">CATEGORIAS</Link>
                 <LinkItem><a href="#">DESTAQUE</a></LinkItem>
                 <LinkItem><a href="#">NOVIDADES</a></LinkItem> 
                 <LinkItem><a href="#">PROMOÇÕES</a></LinkItem>
             </Links>
-        </nav>
+        </Secao>
         <a href='#'>
             <img src={telefone} width="16" height="16" alt='sacola' />
             ATENDIMENTO

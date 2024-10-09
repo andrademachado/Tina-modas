@@ -19,10 +19,17 @@ export const HeaderBar = styled.header`
 export const Links = styled.ul`
     display: flex;
     margin-left: 40px;
+    margin-right: 16px;
 `
 export const LinkItem = styled.li`
     margin-right: 16px;
 `
+export const Secao = styled.nav`
+    display: flex;
+    margin-left: 40px;
+    margin-right: 16px;
+`
+
 
 
 
