@@ -6,6 +6,7 @@ import { GlobalCss,Container } from './styles';
 
 import { Anuncio } from './components/Anuncio';
 import Rotas from './routes'
+import Footer from './components/Footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         </div>
         <Anuncio />
         <Rotas />
+        <Footer />
       </BrowserRouter>
   )
 }
