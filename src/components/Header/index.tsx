@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { HeaderBar, LinkItem, Links, Secao, } from './styles'
+import { HeaderBar, LinkItem, Links, Secao,  } from './styles'
 import logo from '../../assets/images/logoTina.jpg'
 import sacola from '../../assets/images/bags.svg'
 import telefone from '../../assets/images/phone.svg'
@@ -12,9 +12,10 @@ const Header = () =>  (
         </Link>
         <Secao>
             <Links>
-                <Link to="/categories">CATEGORIAS</Link>
-                <LinkItem><a href="#">DESTAQUE</a></LinkItem>
-                <LinkItem><a href="#">NOVIDADES</a></LinkItem> 
+                <LinkItem><Link to="/categories">CATEGORIAS</Link></LinkItem>                
+                
+                <LinkItem><a href="#">FEMININO</a></LinkItem>
+                <LinkItem><a href="#">INFANTIL</a></LinkItem> 
                 <LinkItem><a href="#">PROMOÇÕES</a></LinkItem>
             </Links>
         </Secao>

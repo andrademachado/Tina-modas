@@ -38,12 +38,21 @@ const destaque: Roupa[] =[
         system: 'P,M,G ,GG',
         infos: [' 10% ', ' R$ 250,00  '],
         image: evangelica,
+    },
+    {
+        id: 4,
+        category: 'EVANGELICA',
+        description: 'Vestido Floral Azul',
+        title: 'VESTIDO FLORAL',
+        system: 'P,M,G ,GG',
+        infos: [' 10% ', ' R$ 250,00  '],
+        image: evangelica,
     }
 ]
 
 const novidades: Roupa[] =  [
     {
-        id: 4,
+        id: 5,
         category: 'INFANTIL',
         description: 'Branco',
         title: 'CAMISA BRANCA',
@@ -52,7 +61,7 @@ const novidades: Roupa[] =  [
         image: menino02,
     },
     {
-        id: 5,
+        id: 6,
         category: 'Feminino',
         description: 'Branco',
         title: 'CAMISA ROSA',
@@ -61,7 +70,7 @@ const novidades: Roupa[] =  [
         image: menina01,
     },
     {
-        id: 6,
+        id: 7,
         category: 'Feminino',
         description: 'Branco',
         title: 'CAMISA PRETA',
@@ -69,6 +78,15 @@ const novidades: Roupa[] =  [
         infos: [' 10% ', ' R$ 250,00  '],
         image: menina02,
     },
+    {
+        id: 8,
+        category: 'Feminino',
+        description: 'Branco',
+        title: 'CAMISA PRETA',
+        system: 'P,M,G ,GG',
+        infos: [' 10% ', ' R$ 250,00  '],
+        image: menina02,
+    }
     
     
 ]

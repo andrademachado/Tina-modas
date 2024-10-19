@@ -24,6 +24,8 @@ export const Links = styled.ul`
 export const LinkItem = styled.li`
     margin-right: 16px;
 `
+
+
 export const Secao = styled.nav`
     display: flex;
     margin-left: 40px;
