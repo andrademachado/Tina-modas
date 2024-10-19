@@ -39,7 +39,8 @@ const Footer = () => (
                         </li>
                 </Links>
             </FooterSection>
-            <p>{currentYear} - &copy; Tina Modas .www.tinamodas.com.br - Todos os direitos reservados.</p>
+            <p> www.tinamodas.com.br</p>
+            <p>{currentYear} - &copy; Tina Modas  - Todos os direitos reservados.</p>
 
         </div>
     </Container>

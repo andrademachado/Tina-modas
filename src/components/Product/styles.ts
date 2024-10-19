@@ -7,6 +7,7 @@ export const Card = styled.div`
     border-radius: 8px;
     padding: 8px;
     position: relative;
+    margin-bottom: 30px;
     cor:${cores.preto}
 
     ${TagContainer} {

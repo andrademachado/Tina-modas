@@ -1,5 +1,5 @@
 import { title } from "process"
-
+import Banner from "../../components/Banner"
 import ProductsList from "../../components/ProductList"
 
 import conjuntoCountry from '../../assets/images/conjuncountry.jpg'
@@ -10,7 +10,7 @@ import menina01 from '../../assets/images/menina01jpg.jpg'
 import menina02 from '../../assets/images/menina02.jpg'
 import Roupa from "../../models/Roupa"
 
-const fitness: Roupa[] =[
+const garota: Roupa[] =[
     {
         id:1,
         category:'Feminino',
@@ -50,7 +50,7 @@ const fitness: Roupa[] =[
     }
 ]
 
-const intima: Roupa[] =  [
+const garotos: Roupa[] =  [
     {
         id: 5,
         category: 'INFANTIL',
@@ -80,24 +80,24 @@ const intima: Roupa[] =  [
     },
     {
         id: 8,
-        category: 'EVANGELICA',
-        description: 'Vestido Floral Azul',
-        title: 'VESTIDO FLORAL',
+        category: 'Feminino',
+        description: 'Branco',
+        title: 'CAMISA PRETA',
         system: 'P,M,G ,GG',
         infos: [' 10% ', ' R$ 250,00  '],
-        image: evangelica,
+        image: menina02,
     }
     
     
 ]
 
-const Categories =() => (
-    <>   
-        <ProductsList roupas={fitness} title="FITNESS" background="Rose" />
-        <ProductsList roupas={fitness} title="" background="concha" />
-        <ProductsList roupas={intima} title="ÍNTIMA" background="Rose" />
-        <ProductsList roupas={intima} title="" background="concha" />
+const Infantil =() => (
+    <>
+        <ProductsList roupas={garota} title="MENINAS" background="Rose" />
+        <ProductsList roupas={garota} title="" background="concha" />
+        <ProductsList roupas={garotos} title="MENINOS" background="Rose" />
+        <ProductsList roupas={garotos} title="" background="concha" />
     </>
 )
 
-export default Categories
+export default Infantil

@@ -12,11 +12,10 @@ const Header = () =>  (
         </Link>
         <Secao>
             <Links>
-                <LinkItem><Link to="/categories">CATEGORIAS</Link></LinkItem>                
-                
-                <LinkItem><a href="#">FEMININO</a></LinkItem>
-                <LinkItem><a href="#">INFANTIL</a></LinkItem> 
-                <LinkItem><a href="#">PROMOÇÕES</a></LinkItem>
+                <LinkItem><Link to="/categories">CATEGORIAS</Link></LinkItem>  
+                <LinkItem><Link to="/feminino">FEMININO</Link></LinkItem>
+                <LinkItem><Link to="/infantil">INFANTIL</Link></LinkItem>  
+                <LinkItem><Link to="/promocoes">PROMOÇÕES</Link></LinkItem>
             </Links>
         </Secao>
         <a href='#'>
