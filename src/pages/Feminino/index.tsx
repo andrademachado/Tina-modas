@@ -8,6 +8,7 @@ import menino02 from '../../assets/images/menino02.jpg'
 import menina01 from '../../assets/images/menina01jpg.jpg'
 import menina02 from '../../assets/images/menina02.jpg'
 import Roupa from "../../models/Roupa"
+import Anuncio from "../../components/Anuncio"
 
 const blusas: Roupa[] =[
     {
@@ -209,7 +210,7 @@ const vestidos: Roupa[] = [
 
 const Feminino =() => (
     <>
-        
+        <Anuncio />
         <ProductsList roupas={blusas} title="BLUSAS" background="Rose" />
         <ProductsList roupas={shorts} title="SHORTS" background="concha" />
         <ProductsList roupas={calças} title="CALÇAS" background="Rose" />

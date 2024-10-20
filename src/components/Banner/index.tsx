@@ -1,3 +1,4 @@
+
 import Pacote from '../../assets/images/Pacotejpg.jpg'
 import TinaApresentando from '../../assets/images/TinaApresentando.jpg'
 import frete from '../../assets/images/anuncioFrete2.jpg'

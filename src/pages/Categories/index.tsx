@@ -9,6 +9,7 @@ import menino02 from '../../assets/images/menino02.jpg'
 import menina01 from '../../assets/images/menina01jpg.jpg'
 import menina02 from '../../assets/images/menina02.jpg'
 import Roupa from "../../models/Roupa"
+import Anuncio from "../../components/Anuncio"
 
 const fitness: Roupa[] =[
     {
@@ -92,7 +93,8 @@ const intima: Roupa[] =  [
 ]
 
 const Categories =() => (
-    <>   
+    <> 
+        <Anuncio />  
         <ProductsList roupas={fitness} title="FITNESS" background="Rose" />
         <ProductsList roupas={fitness} title="" background="concha" />
         <ProductsList roupas={intima} title="ÍNTIMA" background="Rose" />
