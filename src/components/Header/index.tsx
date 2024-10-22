@@ -18,10 +18,10 @@ const Header = () =>  (
                 <LinkItem><Link to="/promocoes">PROMOÇÕES</Link></LinkItem>
             </Links>
         </Secao>
-        <a href='#'>
-            <img src={telefone} width="16" height="16" alt='sacola' />
-            ATENDIMENTO
-        </a>
+        <Link to="/atendimento">
+            <img src={telefone} width="16" height="16" alt='icone de telefone' />
+        ATENDIMENTO
+        </Link>        
         <a href="#">
             0
             <img src={sacola} width="40" height="40" alt='sacola' />
@@ -30,52 +30,3 @@ const Header = () =>  (
 )
 
 export default Header
-
-
-
-
-{/*
-    
-
-
-
-import { HeaderBar, Links, LinkItem, InfoPix, } from './styles'
-import Pix from '../../assets/images/icones/Pix.png'
-
-
-//menu de seções *na linha 28 temos os itens do carrinho
-const Header = () => (
-    <HeaderBar>
-
-        <nav>
-            <Links>
-                <LinkItem>
-                    <a href="#">FEMININO</a>
-                </LinkItem>
-                <LinkItem>
-                    <a href="#">INFANTIL</a>
-                </LinkItem>
-                <LinkItem>
-                    <a href="#">ÍNTIMA</a>
-                </LinkItem>
-                <LinkItem>
-                    <a href="#">FITNESS</a>
-                </LinkItem>
-                <LinkItem>
-                    <a href="#">EVANGÉLICA</a>
-                </LinkItem>
-            </Links>
-        </nav>
-        {/*essa linha decódigo vai pro rodape
-        <div>
-            <InfoPix>PAGUE COM PIX</InfoPix>
-        <img src={Pix } width="20" height="20" alt="logo Pix" />
-        </div>
-
-        </HeaderBar >
-    )
-    
-    export default Header
-    
-    */}
-   

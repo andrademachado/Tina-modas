@@ -4,6 +4,7 @@ import Categories from './pages/Categories';
 import Feminino from './pages/Feminino';
 import Infantil from './pages/Infantil';
 import Promocoes from './pages/Promocoes';
+import Atendimento from './pages/Atendimento';
 
 const Rotas = () => (
     <Routes>
@@ -12,6 +13,7 @@ const Rotas = () => (
         <Route path="/feminino" element={< Feminino />} />
         <Route path="/infantil" element={< Infantil />} />
         <Route path="/promocoes" element={< Promocoes />} />
+        <Route path="/atendimento" element={< Atendimento />} />
     </Routes>
 )
 

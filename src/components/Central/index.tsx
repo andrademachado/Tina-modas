@@ -1,12 +1,12 @@
 import TinaFone from '../../assets/images/TinaCelular5.jpg'
 import Zap from '../../assets/images/icones/ligar.png'
 import Atendimento from '../../assets/images/icones/atendimento-ao-cliente.png'
-import { Card, CardAtendimento, Container, Horario, Info, InfoContato, Tina, Title, WhatsApp } from './styles'
+import { Card, CardAtendimento, Container, Horario, Info, InfoContato, Principal, Tina, Title, WhatsApp } from './styles'
 
 
 const whatsappNumber = '5574981283924';
 const Central = () =>(
-    <div>
+    <Principal>
         <div className="container">
             <Container>
                 <Card>
@@ -15,7 +15,7 @@ const Central = () =>(
                         <Title>  DÚVIDAS ?  </Title>
                         <h2>FALE COM UM DE NOSSOS ATENDENTES</h2>
                     </Info>
-                    <Tina src={TinaFone} width="400" height="400" alt="tina com Celular" />
+                    <Tina src={TinaFone} width="350" height="350" alt="tina com Celular" />
                 </Card> 
 
                 <CardAtendimento>
@@ -42,7 +42,7 @@ const Central = () =>(
 
             </Container>
         </div>
-    </div>
+    </Principal>
 )
 
 export default Central
